@@ -18,8 +18,8 @@ FROM Products;
 
 --Method 2: (better syntax for viewing)
 
-SELECT  Brand,
-        Color,
+SELECT Brand,
+       Color
 FROM Shoes;
 
 

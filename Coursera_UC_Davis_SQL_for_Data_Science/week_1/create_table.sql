@@ -4,7 +4,7 @@
 
 CREATE TABLE Shoes
     (
-    ID          char(10)            Primary Key,
+    Id          char(10)            PRIMARY KEY,
     Brand       char(10)            NOT NULL,
     Type        char(250)           NOT NULL,
     Color       char(250)           NOT NULL,

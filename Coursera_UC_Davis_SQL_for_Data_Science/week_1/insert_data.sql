@@ -20,13 +20,13 @@ VALUES ('154342',
 --Method 2:
 
 INSERT INTO Shoes
-    (ID,
+    (Id,
      Brand,
      Type,
      Color,
      Price,
      Desc
-     );
+     )
 VALUES
     ('154342',
     'Gucci',
