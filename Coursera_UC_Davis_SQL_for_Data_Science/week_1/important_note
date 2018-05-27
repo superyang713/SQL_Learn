@@ -1,0 +1,6 @@
+How to run a sql script instead of input them in the sql prompt:
+
+1. connect to the database:
+    sqlite3 test.db
+
+2. sqlite> .read <script filename>

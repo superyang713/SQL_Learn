@@ -1,9 +1,11 @@
-# this is not a script run by any program. It is SQL (SQLite) syntax for
-# adding data to the table run in sqlite3 command line.
+/*
+this is not a script run by any program. It is SQL (SQLite) syntax for
+adding data to the table run in sqlite3 command line.
+*/
 
 
-Method 1: (not recommended)
-
+--Method 1: (not recommended)
+/*
 INSERT INTO Shoes
 VALUES ('154342',
         'Gucci',
@@ -12,9 +14,10 @@ VALUES ('154342',
         '659.23',
         NULL
         );
+*/
 
 
-Method 2:
+--Method 2:
 
 INSERT INTO Shoes
     (ID,

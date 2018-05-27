@@ -1,26 +1,29 @@
-# this is not a script run by any program. It is SQL (SQLite) syntax for
-# selecting data from  a table run in sqlite3 command line.
+/*
+this is not a script run by any program. It is SQL (SQLite) syntax for
+selecting data from  a table run in sqlite3 command line.
+*/
 
-
+/*
 SELECT <column_name>
 FROM <table_name>;
+*/
 
-
-Method 1: (not recommended)
-
+--Method 1: (not recommended)
+/*
 SELECT prod_name, prod_id,
 prod_price
 FROM Products;
+*/
 
 
-Method 2: (better syntac for viewing)
+--Method 2: (better syntax for viewing)
 
-SELECT  prod_name,
-        prod_id,
-        prod_price
-FROM Products;
+SELECT  Brand,
+        Color,
+FROM Shoes;
 
 
+/*
 Use wild card:
 
 SELECT *
@@ -36,3 +39,4 @@ LIMIT number of records;
 SELECT prod_name
 FROM Products
 LIMIT 5;
+*/
