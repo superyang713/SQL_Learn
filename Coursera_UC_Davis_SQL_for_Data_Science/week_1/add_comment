@@ -1,0 +1,29 @@
+# this is not a script run by any program. It is SQL (SQLite) syntax for
+# adding comment or comment section.
+
+
+Adding single line comment: (--)
+INSERT INTO Shoes
+    (ID,
+     --Brand,
+     Type,
+     Color,
+     Price,
+     Desc
+     );
+VALUES
+    ('154342',
+    --'Gucci',
+    'Slippers',
+    'Pink',
+    '659.23',
+    NULL
+    );
+
+
+Adding a comment section: (/*...*/)
+SELECT shoe_id,
+       /*brand_id,
+       shoe_name,
+       */
+FROM shoes;
