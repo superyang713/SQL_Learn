@@ -1,5 +1,7 @@
 #Learn how to create, use, and manage a simple database with pathon 3's standard library, SQLite3.
 
+###Followed SQL tutorial from Sentdex and Coursera UC Davis Data Science introduction course.
+
 Credit to [sentdex](https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ) and his [SQL tutorial](https://www.youtube.com/playlist?list=PLQVvvaa0QuDezJh0sC5CqXLKZTSKU1YNo).
     1. Part 1. Connect to a database, create a table and insert data.
     2. Part 2. Insert python variables to the database.
