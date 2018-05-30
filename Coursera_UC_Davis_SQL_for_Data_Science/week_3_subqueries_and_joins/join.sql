@@ -37,3 +37,12 @@ SELECT o.OrderID
 FROM ((Orders o INNER JOIN Customers c
        ON o.CustomerID = c.CustomerID)
 INNER JOIN Employees e ON o.EmployeeID = e.EmployeeID);
+
+
+/*
+left join --> only this is available in sqlite.
+*/
+SELECT C.CustomerName, O.OrderID
+FROM Customers C
+LEFT JOIN ORDER O ON C.CustomerID = O.CustomerID
+ORDER BY C.CustomerName;
